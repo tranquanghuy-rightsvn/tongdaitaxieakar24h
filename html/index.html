@@ -7308,12 +7308,27 @@
                   margin-left: 60px;
                 "
               >
-                <a href="tel:0846713714" class="image">
-                  <img
-                    src="uploads/2026/04/47514890-0-dk-tu-van-nhap-nhay.gif"
-                    alt="47514890-0-dk-tu-van-nhap-nhay"
-                  />
+                <a href="tel:0846713714" class="contact-btn" aria-label="Gọi 0846 713 714">
+                  <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                      <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.01z" />
+                    </svg>
+                  </span>
+                  <span class="contact-text">
+                    <strong>0846 713 714</strong>
+                    <small>Hỗ trợ 24/7 - Đặt xe nhanh</small>
+                  </span>
                 </a>
+                <style>
+                  .contact-btn { display: flex; align-items: center; gap: 0.75rem; background: var(--primary); color: #fff; text-decoration: none; padding: 0.5rem 1.25rem; border-radius: 50px; flex-shrink: 0; align-self: center; transition: background 0.2s ease; }
+                  .content-component__item:has(> .contact-btn) { margin-left: 0 !important; margin-right: 0 !important; }
+                  .contact-btn:hover { background: #014a99; }
+                  .contact-btn .contact-icon { display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; background: #fff; color: var(--primary); flex-shrink: 0; }
+                  .contact-btn .contact-text { display: flex; flex-direction: column; line-height: 1.25; white-space: nowrap; color: #fff; }
+                  .contact-btn .contact-text strong { font-size: 1rem; font-weight: 800; color: #fff; }
+                  .contact-btn .contact-text small { font-size: 0.7rem; font-weight: 400; opacity: 0.9; color: #fff; }
+                  @media (max-width: 767.98px) { .contact-btn { padding: 0.4rem 0.9rem; } .contact-btn .contact-text small { display: none; } .contact-btn .contact-text strong { font-size: 0.85rem; } }
+                </style>
               </div>
             </div>
           </div>
@@ -7645,150 +7660,366 @@
               class="content-component__item w-100 flex mobile-hide"
               style="flex-basis: calc(100% / 2 - 15px)"
             >
-              <div
-                id=""
-                class="content-component__item w-100 flex mobile-hide"
-                style="
-                  background: #ffffff;
-                  padding-top: 25px;
-                  padding-right: 25px;
-                  padding-bottom: 25px;
-                  padding-left: 25px;
-                  border-radius: 20px;
-                "
-              >
-                <div
-                  class="content-component__list flex"
-                  style="flex-direction: column"
-                >
-                  <div
-                    id=""
-                    class="content-component__item w-100 flex"
-                    style=""
-                  >
-                    <div class="content w-100">
-                      <p style="text-align: center">
-                        <span
-                          style="
-                            color: hsl(211, 98%, 43%);
-                            font-family: Helvetica;
-                            font-size: 21px;
-                          "
-                          ><strong>Taxi eakar</strong></span
-                        >
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    id=""
-                    class="content-component__item w-100 flex"
-                    style="padding-top: 20px"
-                  >
-                    <div class="contact__form w-100">
-                      <div class="contact__body" style="--type_onerow: 1">
-                        <div
-                          class="contact__item contact__item--text contact__item--name"
-                        >
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="name"
-                            data-text="Họ và tên"
-                            data-type="text"
-                            placeholder="Họ và tên ..."
-                            required
-                          />
-                          <small class="label-error contact__error"
-                            >Họ và tên là bắt buộc!</small
-                          >
-                        </div>
-                        <div
-                          class="contact__item contact__item--text contact__item--phone"
-                        >
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="phone"
-                            data-text="Số điện thoại"
-                            data-type="text"
-                            placeholder="Số điện thoại ..."
-                            required
-                          />
-                          <small class="label-error contact__error"
-                            >Số điện thoại là bắt buộc!</small
-                          >
-                        </div>
-                        <div
-                          class="contact__item contact__item--text contact__item--email"
-                        >
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="email"
-                            data-text="Email"
-                            data-type="text"
-                            placeholder="Email ..."
-                          />
-                          <small class="label-error contact__error"
-                            >Email là bắt buộc!</small
-                          >
-                        </div>
-                        <div
-                          class="contact__item contact__item--text contact__item--address"
-                        >
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="address"
-                            data-text="Địa chỉ"
-                            data-type="text"
-                            placeholder="Địa chỉ ..."
-                          />
-                          <small class="label-error contact__error"
-                            >Địa chỉ là bắt buộc!</small
-                          >
-                        </div>
-                        <div
-                          class="contact__item contact__item--textarea contact__item--content"
-                        >
-                          <textarea
-                            class="form-control"
-                            id="content"
-                            data-text="Nội dung"
-                            data-type="textarea"
-                            placeholder="Nội dung ..."
-                          ></textarea>
-                          <small class="label-error contact__error"
-                            >Nội dung là bắt buộc!</small
-                          >
-                        </div>
-                      </div>
-                      <button
-                        type="button"
-                        class="btn btn-primary contact__btn w-100"
-                      >
-                        <svg
-                          width="27"
-                          height="20"
-                          viewBox="0 0 27 20"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M26.0899 0.966882C25.8917 0.766419 25.5981 0.692311 25.3291 0.777909L1.1306 8.44232C0.844502 8.53301 0.640571 8.78544 0.610316 9.08371C0.580872 9.38315 0.732395 9.66982 0.994252 9.81449L6.78296 13.0062L21.8794 4.10238L9.57151 14.5427L19.2731 19.8917C19.3454 19.9308 19.4237 19.9588 19.5044 19.9731C19.6384 19.9967 19.7778 19.9837 19.9074 19.9335C20.1147 19.8522 20.2756 19.6826 20.3461 19.4726L26.2668 1.73122C26.3558 1.4626 26.2879 1.16833 26.0899 0.966882Z"
-                            fill="#FEFEFE"
-                          ></path>
-                        </svg>
-                        Gửi thông tin
-                      </button>
-                    </div>
-                  </div>
+              <div class="hero-visual">
+                <img
+                  src="uploads/2026/04/taxi-4-cho.jpg"
+                  alt="Taxi Eakar - xe 4 chỗ đời mới"
+                  loading="lazy"
+                />
+                <div class="hero-badge hero-badge--top">
+                  <span class="hero-badge-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>
+                  </span>
+                  <span><strong>Phục vụ 24/7</strong><small>Có mặt trong 5 phút</small></span>
+                </div>
+                <div class="hero-badge hero-badge--bottom">
+                  <span class="hero-badge-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3zm-1.2 13.2l6-6-1.4-1.4-4.6 4.6-2-2-1.4 1.4z" /></svg>
+                  </span>
+                  <span><strong>Tài xế chuyên nghiệp</strong><small>An toàn mọi hành trình</small></span>
                 </div>
               </div>
+              <style>
+                .hero-visual {
+                  position: relative;
+                  width: 90%;
+                  margin-left: auto;
+                  margin-right: 18px;
+                  align-self: center;
+                  border-radius: 24px;
+                  border: 4px solid rgba(255, 255, 255, 0.9);
+                  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+                }
+                .hero-visual img {
+                  display: block;
+                  width: 100%;
+                  aspect-ratio: 16 / 11;
+                  object-fit: cover;
+                  border-radius: 20px;
+                }
+                .hero-badge {
+                  position: absolute;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.65rem;
+                  background: #fff;
+                  border-radius: 14px;
+                  padding: 0.6rem 1rem 0.6rem 0.7rem;
+                  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+                }
+                .hero-badge--top { top: 20px; right: -18px; }
+                .hero-badge--bottom { bottom: 20px; left: -18px; }
+                .hero-badge-icon {
+                  width: 38px;
+                  height: 38px;
+                  border-radius: 50%;
+                  background: var(--primary);
+                  color: #fff;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-shrink: 0;
+                }
+                .hero-badge-icon svg { color: #fff; }
+                .hero-badge strong { display: block; font-size: 0.9rem; color: #1a202c; line-height: 1.3; }
+                .hero-badge small { display: block; font-size: 0.75rem; color: #718096; }
+              </style>
             </div>
           </div>
         </div>
       </section>
+      <section class="qb-section">
+        <form class="quick-booking" id="quickBookingForm" novalidate>
+          <div class="qb-intro">
+            <span class="qb-intro-icon">
+              <svg viewBox="0 0 34 24" width="27" height="19" fill="currentColor" aria-hidden="true">
+                <path d="M0 9h6M0 13h4.5M0 17h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+                <path d="M15 11l1.2-3.6A2 2 0 0 1 18.1 6h7.8a2 2 0 0 1 1.9 1.4L29 11h.5A1.5 1.5 0 0 1 31 12.5V16a1 1 0 0 1-1 1h-1a2 2 0 1 1-4 0H19a2 2 0 1 1-4 0H14a1 1 0 0 1-1-1v-3.5A1.5 1.5 0 0 1 14.5 11H15zm2.2-5-1.1 5h11.8l-1.1-5H17.2zM17 15.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm10 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+              </svg>
+            </span>
+            <span class="qb-intro-text">
+              <strong>ĐẶT XE NHANH</strong>
+              <span>Chỉ vài thao tác, có xe ngay</span>
+            </span>
+          </div>
+
+          <span class="qb-divider"></span>
+
+          <div class="qb-locations">
+            <div class="qb-field">
+              <span class="qb-field-label">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" />
+                </svg>
+                Điểm đón
+              </span>
+              <input type="text" class="qb-input" name="pickup" placeholder="Nhập địa chỉ đón" autocomplete="off" />
+            </div>
+
+            <span class="qb-divider"></span>
+
+            <div class="qb-field">
+              <span class="qb-field-label">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" />
+                </svg>
+                Điểm đến
+              </span>
+              <input type="text" class="qb-input" name="dropoff" placeholder="Nhập địa chỉ đến" autocomplete="off" />
+            </div>
+          </div>
+
+          <div class="qb-field qb-field-time">
+            <span class="qb-field-label">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+                <path d="M16 2v4M8 2v4M3 10h18" />
+              </svg>
+              Thời gian
+            </span>
+            <input type="datetime-local" class="qb-input" name="pickup_time" />
+          </div>
+
+          <div class="qb-action">
+            <button type="submit" class="qb-cta">
+              ĐẶT XE NGAY
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </button>
+          </div>
+        </form>
+      </section>
+      <style>
+        .qb-section {
+          position: relative;
+          z-index: 5;
+          width: 100%;
+          margin-top: -40px;
+          padding: 0 15px;
+          background: transparent;
+        }
+        .quick-booking {
+          width: min(1240px, 100%);
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          background: #fff;
+          border-radius: 20px;
+          padding: 1.1rem 1.75rem;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+          border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        .qb-intro {
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+          flex-shrink: 0;
+        }
+        .qb-intro-icon {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background: var(--primary);
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+        }
+        .qb-intro-text {
+          display: flex;
+          flex-direction: column;
+          line-height: 1.3;
+        }
+        .qb-intro-text strong {
+          font-size: 0.95rem;
+          font-weight: 800;
+          letter-spacing: 0.2px;
+          color: #1a202c;
+        }
+        .qb-intro-text span {
+          font-size: 0.78rem;
+          color: #718096;
+        }
+        .qb-divider {
+          align-self: stretch;
+          width: 1px;
+          flex-shrink: 0;
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0) 100%);
+        }
+        .qb-locations {
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          flex: 1;
+          min-width: 0;
+        }
+        .qb-field {
+          display: flex;
+          flex-direction: column;
+          gap: 0.4rem;
+          flex: 1;
+          min-width: 0;
+        }
+        .qb-field-label {
+          display: flex;
+          align-items: center;
+          gap: 0.35rem;
+          font-size: 0.8rem;
+          font-weight: 700;
+          color: #1a1a1a;
+          white-space: nowrap;
+        }
+        .qb-field-label svg {
+          color: var(--primary);
+          flex-shrink: 0;
+        }
+        .qb-input {
+          width: 100%;
+          border: 1px solid #e5e5e5;
+          background: #fafafa;
+          border-radius: 8px;
+          padding: 0.5rem 0.7rem;
+          font-size: 0.85rem;
+          font-family: inherit;
+          color: #444;
+        }
+        .qb-input::placeholder {
+          color: #aaa;
+        }
+        .qb-input:focus {
+          outline: none;
+          border-color: var(--primary);
+          background: #fff;
+        }
+        .qb-input.is-invalid {
+          border-color: #e53935;
+        }
+        .qb-field.qb-field-time {
+          flex: 0 1 220px;
+          min-width: 220px;
+        }
+        .qb-action {
+          display: flex;
+          flex-shrink: 0;
+        }
+        .qb-cta {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          background: var(--primary);
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 800;
+          font-size: 0.9rem;
+          font-family: inherit;
+          letter-spacing: 0.3px;
+          white-space: nowrap;
+          padding: 0.75rem 1.6rem;
+          border: 0;
+          border-radius: 9999px;
+          cursor: pointer;
+          transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        }
+        .qb-cta svg {
+          transition: transform 0.2s ease;
+        }
+        .qb-cta:hover {
+          background: #014a99;
+          box-shadow: 0 4px 12px rgba(2, 97, 198, 0.35);
+        }
+        .qb-cta:hover svg {
+          transform: translateX(3px);
+        }
+        .qb-cta:active {
+          transform: scale(0.98);
+        }
+        @media (max-width: 991.98px) {
+          .qb-section {
+            margin-top: -20px;
+          }
+          .quick-booking {
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1.25rem;
+          }
+          .qb-divider {
+            display: none;
+          }
+          .qb-intro {
+            width: 100%;
+            justify-content: center;
+          }
+          .qb-locations {
+            flex-wrap: wrap;
+            width: 100%;
+            flex: 1 1 100%;
+            gap: 0.75rem;
+          }
+          .qb-field,
+          .qb-field.qb-field-time {
+            flex: 1 1 100%;
+            min-width: 0;
+          }
+          .qb-action,
+          .qb-cta {
+            width: 100%;
+            justify-content: center;
+          }
+        }
+      </style>
+      <script>
+        (function () {
+          var form = document.getElementById("quickBookingForm");
+          if (!form) return;
+          form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            var pickup = form.elements.pickup;
+            var dropoff = form.elements.dropoff;
+            var time = form.elements.pickup_time;
+            var ok = true;
+            [pickup, dropoff].forEach(function (el) {
+              var bad = !el.value.trim();
+              el.classList.toggle("is-invalid", bad);
+              if (bad && ok) el.focus();
+              if (bad) ok = false;
+            });
+            if (!ok) return;
+            var t = time.value ? time.value.replace("T", " ") : "Ngay bây giờ";
+            var data = new FormData();
+            data.append("name", "Đặt xe nhanh");
+            data.append("phone", "");
+            data.append("email", "");
+            data.append("address", pickup.value.trim());
+            data.append(
+              "content",
+              "Điểm đón: " + pickup.value.trim() + "\nĐiểm đến: " + dropoff.value.trim() + "\nThời gian: " + t
+            );
+            data.append("other", "[]");
+            $.ajax({
+              url: "/send-form-contact",
+              type: "POST",
+              data: data,
+              processData: false,
+              contentType: false,
+              beforeSend: function () { loadingBox("open"); },
+              success: function (res) {
+                loadingBox("close");
+                if (res.status == 1) {
+                  alertShow(res.message);
+                  form.reset();
+                } else {
+                  alertShow(res.message, "error");
+                }
+              },
+              error: function (xhr) { loadingBox("close"); showErrorAjax(xhr); }
+            });
+          });
+          form.addEventListener("input", function (e) {
+            if (e.target.classList) e.target.classList.remove("is-invalid");
+          });
+        })();
+      </script>
       <section
         id=""
         class="content-component__item w-100 flex"
